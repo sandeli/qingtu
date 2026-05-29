@@ -1,16 +1,33 @@
-# React + Vite
+# 轻图 (QingTu) - 免费在线图片处理工具
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 **在线使用**: [https://tyr1105.github.io/qingtu/](https://tyr1105.github.io/qingtu/)
 
-Currently, two official plugins are available:
+## 功能
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 🗜️ 图片压缩
+- 自定义压缩质量（10%-100%）
+- 可设置最大宽度限制
+- 支持自定义输出格式
+- 批量处理，最多50张
 
-## React Compiler
+### 🔄 格式转换
+- PNG ↔ JPG ↔ WebP 互转
+- 批量格式转换
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 📐 调整尺寸
+- 自定义宽高
+- 内置常用尺寸预设（微信头像、公众号封面、小红书封面、淘宝主图等）
+- 保持/取消宽高比
 
-## Expanding the ESLint configuration
+## 特点
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔒 隐私安全 - 所有处理在浏览器本地完成
+- ⚡ 极速处理 - Canvas API原生处理
+- 💰 完全免费 - 不限次数无水印
+- 📱 多端适配 - 响应式设计
+
+## 技术栈
+React 19 + Vite + Canvas API + GitHub Pages
+
+## License
+MIT
