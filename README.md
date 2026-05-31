@@ -1,33 +1,63 @@
-# 轻图 (QingTu) - 免费在线图片处理工具
+# 🖼️ 轻图 (QingTu) — Free Online Image Tools
 
-🔗 **在线使用**: [https://tyr1105.github.io/qingtu/](https://tyr1105.github.io/qingtu/)
+<p align="center">
+  <strong>Free image compression and format conversion. 100% client-side. No upload. No signup.</strong>
+</p>
 
-## 功能
+<p align="center">
+  <a href="https://tyr1105.github.io/qingtu/">
+    <img src="https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge" alt="Live Demo">
+  </a>
+  <a href="https://github.com/tyr1105/qingtu/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
+  </a>
+  <img src="https://img.shields.io/badge/Price-Free-success?style=for-the-badge" alt="Free">
+  <img src="https://img.shields.io/badge/Privacy-100%25_Client_Side-important?style=for-the-badge" alt="Privacy">
+</p>
 
-### 🗜️ 图片压缩
-- 自定义压缩质量（10%-100%）
-- 可设置最大宽度限制
-- 支持自定义输出格式
-- 批量处理，最多50张
+## 🌐 Live Demo
 
-### 🔄 格式转换
-- PNG ↔ JPG ↔ WebP 互转
-- 批量格式转换
+👉 **[https://tyr1105.github.io/qingtu/](https://tyr1105.github.io/qingtu/)**
 
-### 📐 调整尺寸
-- 自定义宽高
-- 内置常用尺寸预设（微信头像、公众号封面、小红书封面、淘宝主图等）
-- 保持/取消宽高比
+## ✨ Features
 
-## 特点
+### 🗜️ Image Compression
+- Custom compression quality (10%-100%)
+- Max width limit
+- Custom output format (JPEG/PNG/WebP)
+- Batch processing up to 50 images
 
-- 🔒 隐私安全 - 所有处理在浏览器本地完成
-- ⚡ 极速处理 - Canvas API原生处理
-- 💰 完全免费 - 不限次数无水印
-- 📱 多端适配 - 响应式设计
+### 🔄 Format Conversion
+- Convert between JPG, PNG, and WebP
+- Preserve or change quality settings
 
-## 技术栈
-React 19 + Vite + Canvas API + GitHub Pages
+### ✂️ Image Resize
+- Resize by percentage or specific dimensions
+- Maintain aspect ratio
 
-## License
-MIT
+## 🔒 Privacy First
+
+All image processing happens **in your browser**. Your images never leave your device — no server uploads.
+
+## 🚀 Tech Stack
+
+- React + Vite
+- Browser-native Canvas API for image processing
+- Zero backend required
+
+## 🛠️ Local Development
+
+    git clone https://github.com/tyr1105/qingtu.git
+    cd qingtu
+    npm install
+    npm run dev
+
+## 📄 License
+
+MIT License
+
+---
+
+<p align="center">
+  Made with ❤️ by <a href="https://github.com/tyr1105">tyr1105</a>
+</p>
