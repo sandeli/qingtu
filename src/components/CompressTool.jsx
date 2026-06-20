@@ -102,6 +102,8 @@ export default function CompressTool() {
               <option key={key} value={key}>{fmt.label}</option>
             ))}
           </select>
+          {/* ✨ 核心改动：添加隐形占位符，完美对齐左侧的提示小字高度 */}
+          <span className="input-hint" style={{ visibility: 'hidden' }}>&nbsp;</span>
         </div>
       </div>
 
@@ -176,7 +178,9 @@ export default function CompressTool() {
           </div>
           <div className="results-grid">
             {results.map((r, i) => (
-              <ResultCard key={i} result={r} index={i} />
+              <div key={i} className="result-card-wrapper">
+                <ResultCard result={r} index={i} />
+              </div>
             ))}
           </div>
         </div>
