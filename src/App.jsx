@@ -79,7 +79,12 @@ function App() {
       </section>
 
       <footer className="footer">
-        <p>© 2026 轻图 -😎TaoGe · 所有处理在本地完成，保护您的隐私</p>
+        <p>© <span id="year">2026</span> 轻图 - 😎TaoGe · <span style="color: #000000; font-weight: bold;">所有处理在本地完成，保护您的隐私</span></p>
+
+<script>
+    // 这段脚本会自动获取当前的实际年份，并替换掉上面 id="year" 里的文字
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
       </footer>
     </div>
   )
