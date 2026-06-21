@@ -65,7 +65,7 @@ export default function FileDropZone({ onFiles, multiple = true, maxFiles = 50 }
         style={{ display: 'none' }}
       />
       <div className="dropzone-content">
-        <span className="dropzone-icon">📁</span>
+        <span className="dropzone-icon">🗂️</span>
         <p className="dropzone-title">拖拽图片到这里，或点击选择文件</p>
         <p className="dropzone-hint">支持 PNG / JPG / WebP / GIF / BMP{multiple ? `，最多 ${maxFiles} 张` : ''}</p>
       </div>
