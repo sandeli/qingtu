@@ -20,7 +20,7 @@ function App() {
         <div className="header-inner">
           <div className="logo">
             <span className="logo-icon">📸</span>
-            <h1>轻图</h1>
+            <h1>修图</h1>
             <span className="tagline">免费在线图片工具</span>
           </div>
           <nav className="tool-nav">
@@ -79,7 +79,7 @@ function App() {
       </section>
 
       <footer className="footer">
-         <p>© 2026 轻图 -😎TaoGe · 👀所有处理在本地完成，保护您的隐私</p>
+         <p>© 2026 修图 -😎TaoGe · 👀所有处理在本地完成，保护您的隐私</p>
       </footer>
     </div>
   )
