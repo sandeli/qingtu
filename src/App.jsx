@@ -19,7 +19,7 @@ function App() {
       <header className="header">
         <div className="header-inner">
           <div className="logo">
-            <span className="logo-icon">🖼️</span>
+            <span className="logo-icon">📸</span>
             <h1>轻图</h1>
             <span className="tagline">免费在线图片工具</span>
           </div>
