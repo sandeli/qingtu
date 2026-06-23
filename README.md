@@ -17,7 +17,7 @@
 
 ## 🌐 Live Demo
 
-👉 **[https://pic.qfqf.eu.org]([https://pic.qfqf.eu.org])**
+👉 **[https://pic.qfqf.eu.org](https://pic.qfqf.eu.org)**
 
 ## ✨ Features
 
