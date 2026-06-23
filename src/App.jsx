@@ -79,7 +79,7 @@ function App() {
       </section>
 
       <footer className="footer">
-         <p>© 2026 轻图 -😎TaoGe · 👀所有处理在本地完成，保护您的隐私</p>
+         <p>© 2026 轻图 -😎TaoGe · 👀所有处理在本地完成，不上传任何服务器，保护您的隐私安全</p>
       </footer>
     </div>
   )
