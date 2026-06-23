@@ -44,7 +44,7 @@ function App() {
           {TOOLS.find(t => t.id === activeTool)?.icon}{' '}
           {TOOLS.find(t => t.id === activeTool)?.label}
         </h2>
-        <p>{TOOLS.find(t => t.id === activeTool)?.desc} · 完全本地处理 · 无需上传 · 保护隐私</p>
+        <p>{TOOLS.find(t => t.id === activeTool)?.desc} · 完全本地处理 · 无需上传网络 · 保护隐私安全</p>
       </section>
 
       {/* 工具主体 */}
